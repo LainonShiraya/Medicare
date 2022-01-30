@@ -18,7 +18,24 @@ Login/Pesel/personal ID number : 1234
 <p align="center">
 Password: zaq1
 </p>
-   
+ 
+ ## Run the application( In the project folder) 
+ 
+ To download required node_modules
+ ```sh
+ npm i
+  ```
+  to start the application
+ ```sh
+ npm start
+ ```
+ ## External libraries used
+
+* Axios
+* react-i18next
+* React router v6
+* [Sweet Alert](https://github.com/t4t5/sweetalert)
+ 
 ## Few screenshots
 
  <p float="center" align="center">
@@ -29,3 +46,4 @@ Password: zaq1
 <img src="https://user-images.githubusercontent.com/59234543/151682918-2cede209-f314-4b12-b2df-b6a535643565.png" width="384" height="216" >
  </p>
  
+    

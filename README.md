@@ -1,7 +1,7 @@
 
 # Medicare
 
-This is a application based on self made API that uses local storage as well as api calls to allow the patients register, as well as log in. &nbsp; &nbsp; &nbsp;
+This is a application based on self made API that uses local storage as well as api calls to allow the patients register, as well as log in.
 It displays pretty simple designed menu for user that can check it's own prescriptions and appointments as well as edit their information. Doctor as the user that cannot register, has different menu after logging in, that allows him to check the next patients he has, check the patients list as well as edit the patient details, add him the prescriptions and appointments, as well as remove the appointments. Doctor can add a patient himself, and if so, the patient will get a mail notification about that with a password that is required to register to the application. Every time Doctor adds or removes an appointment or adds a prescription, notification gets send as well.
  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; Application has the option to change the languages between polish and english.
 

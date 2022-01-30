@@ -1,0 +1,83 @@
+@import "../general_styles/colors/colors.scss";
+.dashboard {
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+  min-width: 890px;
+}
+.title-underline {
+  width: 40%;
+  margin-left: 0;
+}
+
+.patients-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.patient {
+  width: 20%;
+  min-width: 150px;
+  min-height: 200px;
+  background-color: white;
+  border-radius: 35px;
+  text-align: center;
+  border: 0.2rem groove $secondary-color;
+  margin: 1.5rem;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.edit-profile-container {
+  .image {
+    height: auto;
+    width: auto;
+  }
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.dashboard-title-upper {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 1280px) {
+  .dashboard {
+    width: 100%;
+  }
+  .title-underline {
+    min-width: 300px;
+  }
+  .dashboard-title {
+    margin: 2rem;
+  }
+  .patients-list {
+    margin: 0;
+    justify-content: center;
+  }
+  .patient {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .patients-list {
+    justify-content: center;
+  }
+  .patient {
+    width: 60%;
+  }
+}

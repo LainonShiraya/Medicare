@@ -1,0 +1,22 @@
+.button-main {
+  background-color: #2f344a;
+  border-color: #707070;
+  border-radius: 15px;
+  width: 25%;
+  min-width: 150px;
+  margin-bottom: 1rem;
+}
+
+.button-expand {
+  display: none;
+}
+
+.button-delete:hover {
+  transition: 0.5s;
+  background-color: #c21807;
+}
+
+.button-confirm:hover {
+  transition: 0.5s;
+  background-color: #708238;
+}/*# sourceMappingURL=buttons.css.map */

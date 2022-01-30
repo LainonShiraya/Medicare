@@ -1,0 +1,166 @@
+@import "../general_styles/colors/colors.scss";
+
+.search-container {
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+.search {
+  width: 50%;
+  border-radius: 35px;
+  min-height: 50px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.search:focus {
+  outline: none;
+  border: 0.2rem groove $font-secondary-color;
+}
+.dashboard-upper-container {
+  min-height: 300px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.patient-info {
+  background-color: white;
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 0.2rem groove $font-secondary-color;
+}
+
+.prescriptions-container {
+  width: 70%;
+  background-color: white;
+  border-radius: 35px;
+  min-height: 300px;
+  border: 0.2rem groove $font-secondary-color;
+  overflow: auto;
+  max-height: 400px;
+}
+.shorten-information {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.shorten-information-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem;
+  cursor: pointer;
+}
+.shorten-information-text h4 {
+  margin: 0;
+}
+.shorten-information-line {
+  width: 100%;
+}
+.dashboard-title {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  width: 80%;
+}
+.dashboard-bottom-container {
+  min-height: 300px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.information-container {
+  width: 40%;
+  background-color: white;
+  border-radius: 35px;
+  border: 0.2rem groove $font-secondary-color;
+}
+.appointments-container {
+  width: 50%;
+  background-color: white;
+  border-radius: 35px;
+  border: 0.2rem groove $font-secondary-color;
+  overflow: auto;
+  max-height: 300px;
+}
+
+.patient-information-detail {
+  margin: 2rem;
+}
+@media only screen and (max-width: 1280px) {
+  .search-container {
+    margin-left: 1rem;
+    margin-top: 0;
+  }
+}
+
+.plus-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+}
+
+.patient {
+  min-width: 150px;
+  min-height: 200px;
+  background-color: white;
+  border-radius: 35px;
+  text-align: center;
+  border: 0.2rem groove $font-secondary-color;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.details {
+  margin: 1rem;
+}
+
+.patientButton:hover {
+  cursor: pointer;
+}
+@media only screen and (max-width: 850px) {
+  .patientButton {
+    margin-left: 0;
+  }
+  .dashboard-upper-container {
+    display: block;
+  }
+  .dashboard-bottom-container {
+    flex-direction: column;
+  }
+  .dashboard {
+    min-width: 250px;
+    width: 100%;
+  }
+  .search {
+    width: 80%;
+  }
+  .patient-info {
+    width: 80%;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+  .prescriptions-container {
+    width: 80%;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+  .information-container {
+    width: 80%;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+  .appointments-container {
+    width: 80%;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+  .title-underline {
+    min-width: 250px;
+    width: 80%;
+  }
+}

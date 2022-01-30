@@ -1,0 +1,47 @@
+@import "../colors/colors.scss";
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.description-secondary {
+  color: $font-color;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.title-primary {
+  color: $font-color;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.name-primary {
+  color: $font-color;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}
+.button-text {
+  color: $font-color;
+  font-size: 1rem;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  background-color: inherit;
+  color: $font-color;
+}
+.sub-title-hover {
+  color: $font-secondary-color;
+  margin: 1rem;
+}
+.sub-title-hover:hover {
+  color: $font-color;
+  margin: 1rem;
+}
+
+.sub-title-basic {
+  color: $font-secondary-color;
+  margin: 1rem;
+}

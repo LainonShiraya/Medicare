@@ -1,0 +1,70 @@
+@import "../general_styles/colors/colors.scss";
+@import "../general_styles/text/text.scss";
+@import "../general_styles/buttons/buttons.scss";
+@import "../general_styles/inputs/inputs.scss";
+.login-page-container {
+  background-color: $main-color;
+  min-height: 100vh;
+}
+.menu {
+  background-color: $secondary-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  border-radius: 15px;
+  min-height: 300px;
+  min-width: 250px;
+  border: 1px solid $border-color;
+  padding: 2rem;
+}
+
+h3 {
+  background-color: inherit;
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 40%;
+  padding-top: 15vh;
+}
+
+.welcome-container-text {
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.image-container {
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  width: 120px;
+  height: 100px;
+}
+
+@media only screen and (max-width: 1480px) {
+  .menu {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .welcome-container {
+    padding-top: 5rem;
+  }
+  .menu {
+    padding: 1rem;
+  }
+}

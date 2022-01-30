@@ -1,0 +1,50 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.description-secondary {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.title-primary {
+  color: #ffffff;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.name-primary {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}
+
+.button-text {
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  background-color: inherit;
+  color: #ffffff;
+}
+
+.sub-title-hover {
+  color: #c7c8cb;
+  margin: 1rem;
+}
+
+.sub-title-hover:hover {
+  color: #ffffff;
+  margin: 1rem;
+}
+
+.sub-title-basic {
+  color: #c7c8cb;
+  margin: 1rem;
+}/*# sourceMappingURL=text.css.map */

@@ -1,0 +1,185 @@
+@charset "UTF-8";
+.edit-profile-container {
+  background-color: white;
+  min-height: 800px;
+  width: 50%;
+  margin: auto;
+  border-radius: 35px;
+  border: 0.2rem groove #c7c8cb;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-underline {
+  width: 40%;
+  float: left;
+}
+
+.edit-profile-text {
+  margin: 1rem auto auto 2rem;
+}
+
+.image {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  width: auto;
+}
+
+.image-avatar-edit {
+  width: 200px;
+  max-height: 300px;
+}
+
+input[type=file] {
+  display: none;
+}
+
+.file-upload {
+  display: flex;
+  margin: auto;
+  text-align: center;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+  min-width: 890px;
+}
+
+.update-container {
+  margin: auto;
+  margin-top: 0;
+  text-align: center;
+  align-items: center;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.update-container .input-container {
+  width: 80%;
+}
+
+.input-data {
+  width: 70%;
+  border-radius: 35px;
+  min-height: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  clear: both;
+}
+
+.input-data:focus {
+  outline: none;
+}
+
+.update-input-div {
+  margin: auto;
+}
+
+.decorative-label {
+  margin: auto;
+}
+
+.input-label-text {
+  text-align: left;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  background-image: linear-gradient(to right, #181e36, white);
+  border-radius: 35px;
+  margin: 1.5rem;
+}
+
+.decorative-label {
+  color: white;
+}
+
+.button-edit-profile {
+  width: 60%;
+  margin-top: 1.5rem;
+}
+
+.input-data-date {
+  color: #6c6d77;
+}
+
+.button-edit-profile {
+  width: 60%;
+  margin-top: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+.box select {
+  background-color: inherit;
+  color: black;
+  padding: 12px;
+  width: 250px;
+  border: none;
+  font-size: 20px;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+       appearance: button;
+  outline: none;
+}
+
+.box::before {
+  content: "";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+.box:hover::before {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.box select option {
+  padding: 30px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .dashboard {
+    min-width: 100%;
+  }
+
+  .update-container {
+    width: 100%;
+  }
+
+  .input-container {
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
+    background-image: none;
+    background-color: #181e36;
+  }
+
+  .edit-profile-container {
+    width: 80%;
+  }
+
+  .box select {
+    color: white;
+  }
+}/*# sourceMappingURL=patients.add.css.map */

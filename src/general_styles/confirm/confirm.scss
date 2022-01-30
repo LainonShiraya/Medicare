@@ -1,0 +1,40 @@
+@import "../colors/colors.scss";
+body {
+  background-color: var(--main-color);
+}
+
+.main-container {
+  max-height: 1000px;
+  width: 90%;
+  margin: auto;
+}
+
+.confirm-container {
+  min-height: 200px;
+  background-color: var(--secondary-color);
+  min-height: 400px;
+  width: 50%;
+  margin: auto;
+  border-radius: 35px;
+  border: 1px solid var(--border-color);
+  display: flex;
+  margin-top: 15%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.confirm-board {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1280px) {
+  .confirm-container {
+    margin-top: 50%;
+    width: 100%;
+  }
+}
